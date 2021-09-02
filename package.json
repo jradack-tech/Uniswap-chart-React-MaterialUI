@@ -1,0 +1,40 @@
+{
+  "name": "charting-library-react-js-example",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.13",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "apollo-link-ws": "^1.0.20",
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.4",
+    "ethers": "^5.1.4",
+    "graphql": "^15.5.0",
+    "jquery": "^3.6.0",
+    "kaktana-react-lightweight-charts": "^1.1.5",
+    "lightweight-charts": "^3.3.0",
+    "moment": "^2.29.1",
+    "react": "^16.2.0",
+    "react-delay-input": "^4.1.0",
+    "react-dom": "^16.2.0",
+    "react-moment": "^1.1.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.4",
+    "react-swipeable-views": "^0.14.0",
+    "react-tradingview-widget": "^1.3.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "subscriptions-transport-ws": "^0.9.18",
+    "web3": "^1.2.9"
+  },
+  "scripts": {
+    "start": "set PORT=8080 && react-scripts start",
+    "build": "react-scripts build"
+  }
+}

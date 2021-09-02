@@ -1,0 +1,393 @@
+.App {
+	text-align: center;
+}
+
+body.dark  {
+  background-color: black;
+  -webkit-scrollbar-color: yellow blue !important;
+  -webkit-scrollbar-color: #87ceeb #ff5621;
+  -webkit-scrollbar-color: auto;
+} 
+
+.App-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+	background-color: #222;
+	color: #fff;
+}
+
+.App-tv-logo {
+	height: 45px;
+}
+
+.App-react-logo {
+	display: block;
+	height: 62px;
+}
+
+.App-title {
+	display: block;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar.bg-dark .input-group {
+    width: 100% !important;
+  }
+}
+
+.inner-chart {
+  height: auto !important;
+  /*min-height: 400px !important;*/
+}
+footer {
+  margin-top: 50px !important;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-absolute {
+  position: absolute;
+  width: inherit !important;
+  z-index: 9999;
+  height: 300px;
+  overflow: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+  right: 0;
+}
+
+.non-show {
+  display: none;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.width-5 {
+  height: inherit !important;
+}
+
+.logo-size {
+  width: 30px;
+  /*height: 30px;*/
+}
+
+.token-address {
+  font-size: 12px;
+}
+
+.content-3mgFz85m .wrap-3tiHesTk .group-wWM3zP_M {
+  display: none !important;
+}
+
+.TVChartContainer {
+  height: calc(83vh - 80px);
+}
+
+/*Custome CSS*/
+.newly-tokens {
+  padding: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.logo-size-sm {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+}
+
+.logo-size-sm-0 {
+  width: 18px;
+  height: 18px;
+  /*margin-top: 2px;*/
+}
+
+.height-30px {
+  height:  20px !important;
+}
+
+.trending-box > ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+
+.matches {
+  margin-left: 15px !important;
+}
+
+.details {
+  width: 310px;
+  flex: 0 0 auto;
+  /*padding-right: 20px;*/
+  padding-top: 20px;
+  height: calc(100vh - 125px);
+  overflow: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+}
+
+.tokenchart {
+  height: calc(100vh - 125px);
+  overflow: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+
+}
+
+.commmunity-icon-wrp {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  /*justify-content: space-between;*/
+  margin: 0 5px;
+}
+.commmunity-icon-wrp > a {
+  display: inline-block;
+  width: 28px;
+}
+.commmunity-icon-wrp > a > img {
+  width: 100%;
+  background: rgb(255 255 255);
+  padding: 0;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 5px 5px -4px rgb(144 148 161 / 35%);
+  border-radius: 5px;
+}
+
+.tab-15 {
+  width: 30px;
+}
+
+.MuiBox-root, .MuiBox-root-36 {
+  padding: 25px 5px !important;
+}
+
+.fontSize-12 {
+  font-size: 12px;
+}
+
+.width-786 {
+  /*width: calc(100vw - 556px);*/
+  width: calc(100vw - 573px);
+  overflow-x: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+
+}
+
+.width-matches {
+  /*width: calc(100vw - 246px);*/
+  width: calc(100vw - 246px);
+  overflow-x: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+
+}
+.width-600 {
+  /*width: calc(100vw - 23px);*/
+  width: calc(100vw - 6px);
+  overflow-x: auto;
+  -webkit-scrollbar-color: yellow blue !important;
+}
+
+/*Mobile env*/
+/*.width-786 {
+  width: calc(100vw - 556px);
+  overflow-x: auto;
+}
+
+.width-matches {
+  width: calc(100vw - 246px);
+  overflow-x: auto;
+}
+.width-600 {
+  width: calc(100vw - 6px);
+  overflow-x: auto;
+}*/
+.w-full {
+  width:  100%;
+}
+
+.icon-group-sm > .MuiSvgIcon-root {
+  width: 15px !important;
+}
+
+.bg-lightsky {
+  background-color: #dbe3f5 !important;
+}
+
+.footer-icons {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ .list-group-weight .MuiListItem-root .MuiTypography-displayBlock {
+  font-weight: 700 !important;
+}
+
+.thead-color {
+  background-color: #dbe3f5 !important;
+}
+
+.drawerPaper {
+  width: 240px;
+}
+.commmunity-icon-wrp a {
+  margin: 0 6px !important;
+}
+
+
+
+
+/*Scroll bar style*/
+/* width */
+.dark ::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+/* Track */
+.dark ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgb(10, 10, 10) !important; 
+  border-radius: 2px !important;
+}
+ 
+/* Handle */
+.dark ::-webkit-scrollbar-thumb {
+  background: grey !important; 
+  border-radius: 2px !important;
+}
+
+/* Handle on hover */
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: lightgrey !important; 
+}
+
+
+
+
+
+
+
+
+
+/*Dark mode*/
+
+.dark  .drawerPaper {
+  width: 240px;
+  /*background: linear-gradient(to left bottom, darkslategrey, rgb(0 0 0));*/
+  background: linear-gradient(to left bottom, #191d1d, rgb(0 0 0));
+  color: white;
+}
+
+.dark .MuiDivider-root {
+  background-color: #383838;
+}
+.dark .toolbar {
+  /*background-color: black;*/
+  background: linear-gradient(to left bottom, rgb(0 0 0), black);
+}
+
+.dark .list-group-weight .MuiListItemIcon-root {
+  color: white !important;
+}
+
+.dark .newly-tokens {
+  padding: 5px;
+  /*background: linear-gradient(to left bottom, rgb(0 0 0), black);*/
+  background-color: black;
+  display: flex;
+}
+.dark .newly-tokens span {
+  color: white;
+}
+
+.dark .trending-box ul li a {
+  color: white;
+}
+.dark .details {
+  border: none;
+}
+
+.dark .main-board {
+    /*background: linear-gradient(to left bottom, rgb(0 0 0), black);*/
+  background-color: black;
+  color: lightgrey;
+}
+
+.dark .thead-color {
+  background-color: black !important;
+  border-color: grey !important;
+  border-left: 1px solid grey !important;
+  color: white;
+}
+.dark .tbody-color {
+  background-color: black !important;
+  border-color: grey !important;
+  border-left: 1px solid grey !important;
+  color: lightgrey;
+}
+.dark .pagination-color {
+  background-color: black !important;
+  color: white;
+}
+
+.dark .tablecolor tr td {
+  color: white;
+}
+
+.dark .text-medium {
+  color:  white;
+}
+
+.dark .bg-lightsky {
+  background-color: #09ad95 !important;
+  color: white;
+}
+
+.type-sell {
+  color: #d67e7e !important;
+}
+
+.type-buy {
+  color: #41d43f !important;
+}
+
+.MuiButton-label {
+  font-weight: bold;
+}
+
+.hand-pointer {
+  cursor: pointer;
+}
+.dark .text-right {
+  color: white !important;
+}
